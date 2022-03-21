@@ -1,0 +1,68 @@
+/*links for images 
+https://www.pexels.com/photo/close-up-shot-of-a-bicycle-5446317/
+https://www.pexels.com/photo/person-in-pants-and-black-shoes-on-a-bicycle-near-a-tools-5446308/
+https://www.pexels.com/photo/bicycle-crankset-1020136/
+https://www.pexels.com/photo/bicycle-crankset-1020136/
+https://www.pexels.com/photo/person-riding-a-bike-8642114/
+https://www.pexels.com/photo/a-person-in-black-long-sleeve-shirt-carrying-a-yellow-and-green-backpack-while-riding-a-bicycle-7843950/
+https://www.pexels.com/photo/sportive-woman-with-bicycle-resting-on-countryside-road-in-sunlight-3771836/
+https://www.pexels.com/photo/high-angle-view-of-people-on-bicycle-248547/
+https://www.pexels.com/photo/gray-motorcycle-chain-form-number-8-1061135/
+https://www.pexels.com/photo/bike-chain-forming-1-and-0-1061133/
+https://www.pexels.com/photo/gray-metal-chain-1061137/
+https://www.pexels.com/photo/bike-chain-number-one-1061142/
+https://www.pexels.com/photo/gray-steel-chain-on-orange-surface-1061141/
+https://www.pexels.com/photo/grey-3-chain-1061140/
+https://www.pexels.com/photo/gray-chain-on-orange-surface-1061136/
+https://www.pexels.com/photo/close-up-photography-of-bicycle-chain-1061138/
+https://www.pexels.com/photo/gray-bicycle-chain-on-orange-surface-1061134/
+https://www.pexels.com/photo/illustration-of-gray-metal-chain-in-4-digit-form-1061139/
+https://www.pexels.com/photo/textured-background-of-grunge-metal-wall-with-holes-4455007/
+https://www.pexels.com/photo/grunge-metal-wall-with-holes-and-corrosion-4486723/
+https://www.pexels.com/photo/abstract-background-of-red-paint-5675377/
+https://www.pexels.com/photo/abstract-geometric-background-of-metal-net-4508742/
+
+*/
+body{ background-color: rgb(112, 143, 108);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h1{ font-style: italic;
+}
+header{display: flex;}
+nav{ background-color: tomato;
+    float: left;
+    padding: .5rem;
+}
+img#bannerpic{
+    width: 1400px;
+    height: 150px;
+    padding: 0px;
+    margin-left: 0em;
+    margin-right: 0em;
+    flex: center;
+    }
+img#logo{
+    float:left
+}
+div{
+    background-color: black;
+    color:aliceblue;
+    padding: 1em;
+    margin-left: 1rem;
+}
+.section1{
+ display:grid;
+ grid-template-columns: repeat(3,100px) minmax(100px,300px);
+    
+}
+footer{
+    padding: 2rem;
+    background-color: rgb(217, 219, 92);
+    display: flex;
+    grid-template-rows: minmax(100px,auto);
+    flex: 2 1 150px;
+}
+h3{
+    display:flex;
+    justify-content: center;
+    background-color: azure;
+}
